@@ -1,5 +1,5 @@
 Name:                abc
-Version:             0.1
+Version:             0.2
 Synopsis:            Project Synopsis Here
 Description:         Project Description Here
 License:             AllRightsReserved
@@ -33,7 +33,8 @@ Executable abc
     snap-loader-static        >= 0.9     && < 0.10,
     text                      >= 0.11    && < 0.12,
     time                      >= 1.1     && < 1.5,
-    xmlhtml                   >= 0.1
+    xmlhtml                   >= 0.1,
+    snaplet-postgresql-simple == 0.4.1
 
   if flag(old-base)
     build-depends:
